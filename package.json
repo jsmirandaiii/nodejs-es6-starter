@@ -4,9 +4,8 @@
   "description": "Jose Miranda's NodeJS ES6 Starter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node server.js",
-    "build": "rimraf ./build && babel ./ --out-dir ./dist --ignore ./node_modules,./dist,package.json,.package-lock.json,.babelrc"
+    "start": "nodemon --exec babel-node index.js",
+    "build": "rimraf ./build && babel ./ --out-dir ./build --ignore ./node_modules,./build,package.json,.package-lock.json,.babelrc"
   },
   "keywords": [],
   "author": "Jose S. Miranda III",
