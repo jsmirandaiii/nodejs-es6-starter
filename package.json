@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-es6-starter",
+  "version": "1.0.0",
+  "description": "Jose Miranda's NodeJS ES6 Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node server.js",
+    "build": "rimraf ./build && babel ./ --out-dir ./dist --ignore ./node_modules,./dist,package.json,.package-lock.json,.babelrc"
+  },
+  "keywords": [],
+  "author": "Jose S. Miranda III",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.55",
+    "@babel/node": "^7.0.0-beta.55",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
