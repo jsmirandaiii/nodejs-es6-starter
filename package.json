@@ -11,13 +11,13 @@
   "author": "Jose S. Miranda III",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.1.5",
-    "@babel/core": "^7.1.6",
-    "@babel/node": "^7.0.0",
-    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/preset-env": "^7.1.6",
-    "nodemon": "^1.18.7",
-    "rimraf": "^2.6.2"
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "nodemon": "^1.19.1",
+    "rimraf": "^3.0.0"
   },
   "dependencies": {}
 }
