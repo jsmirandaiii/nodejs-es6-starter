@@ -2,8 +2,12 @@
   "presets": ["@babel/preset-env"],
   "plugins": [
     "@babel/plugin-proposal-object-rest-spread",
-    ["module-resolver", {
-      "root": ["./"],
-    }]
+    "@babel/plugin-proposal-optional-chaining",
+    [
+      "module-resolver",
+      {
+        "root": ["./"]
+      }
+    ]
   ]
 }

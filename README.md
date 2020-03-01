@@ -10,11 +10,3 @@ cd nodejs-es6-starter
 npm run install
 npm run start
 ```
-
-### Production Use
-
-```
-npm install -g pm2
-npm run build && cd build
-pm2 start index.js -i max
-```
